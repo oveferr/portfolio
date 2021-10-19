@@ -1,0 +1,107 @@
+* {
+    font-family: 'Bitter', serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.block{
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Gif {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.AboutMe {
+    text-align: left;
+    background-color: #F0F0F0;
+    max-width: 100%;
+}
+
+.HeadSpeak {
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 60px;
+}
+
+.AboutMeText {
+    font-size: 26px;
+    color: #707070;
+    padding-left: 60px;
+}
+
+.AboutMeContact {
+    padding: 60px;
+}
+
+.contact {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.newBlock-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.newBlock-row{
+    flex: 0, 1, 50%;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    background-color: #ddd;
+    height: 40px;
+    color: #999;
+}
+
+.ihatebtn{
+    border-radius:30px;
+    border: 1mm solid;
+    border-color: #000;
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.btn {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-text {
+
+}
+
+.contact_a{
+    text-decoration: none;
+}
